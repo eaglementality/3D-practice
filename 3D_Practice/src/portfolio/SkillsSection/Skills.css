@@ -1,0 +1,92 @@
+/* general section */
+section {
+    padding: 60px 0;
+    overflow: hidden;
+  }
+  
+  .section-bg {
+    background: #f5f8fd;
+  }
+  
+  .section-title {
+    padding-bottom: 30px;
+  }
+  
+  .section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #173b6c;
+  }
+  
+  .section-title h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #149ddd;
+    bottom: 0;
+    left: 0;
+  }
+  #pro{
+    padding: 0;
+    margin: 0 0 6px 0;
+    display: block;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: blueviolet;
+  }
+  /* .Skillp{
+    padding-left: 300px;
+  } */
+  h2{
+    color: blueviolet;
+  }
+  .row{
+    margin-left: 50px;
+  }
+  .section-title p {
+    margin-bottom: 0;
+  }
+  .skills .progress {
+    height: 60px;
+    display: block;
+    background: none;
+    border-radius: 0;
+  }
+  #skills h2{
+    text-align: center;
+   padding-right: 73px; 
+  }
+  .skills .progress .skill {
+    padding: 0;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #6580a4;
+  }
+  
+  .skills .progress .skill .val {
+    float: right;
+    font-style: normal;
+  }
+  
+  .skills .progress-bar-wrap {
+    background: #dce8f8;
+    height: 10px;
+  }
+  
+  .skills .progress-bar {
+    width: 1px;
+    height: 10px;
+    transition: 0.9s;
+    background-color: #149ddd;
+  }
+  .container{
+    text-align: center;
+  }
