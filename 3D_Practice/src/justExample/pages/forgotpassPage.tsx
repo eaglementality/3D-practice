@@ -1,12 +1,6 @@
-import loginBg from ".././logINBgImage.png";
+
 export const ForgotPasswordForm = () => {
   return (
-    <main className=" w-full h-full">
-      <header className=" border w-full py-6 pl-12 bg-white">
-        <h4 className="text-[#013D84] text-3xl font-bold">LOGO</h4>
-      </header>
-      <img src={loginBg} className="w-full h-screen" />
-      <section className="absolute top-[8.5%] bg-black bg-opacity-25 h-full w-full flex justify-center items-center py-40 px-32">
         <div className="z-50 w-[582px]">
           <div className="grid w-full justify-center items-center pt-20 px-10 bg-white rounded-lg ">
             <h4 className="font-semibold mb-16 w-full text-center text-3xl">
@@ -50,7 +44,5 @@ export const ForgotPasswordForm = () => {
             </form>
           </div>
         </div>
-      </section>
-    </main>
   );
 };

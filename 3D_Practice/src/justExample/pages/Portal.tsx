@@ -1,4 +1,4 @@
-import student from "../justExample/image.png";
+import student from "../image.png";
 export const Portal = () => {
   return (
     <main className="w-full h-full flex">
